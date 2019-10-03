@@ -1,7 +1,4 @@
 
-data "aws_region" "current" {}
-data "aws_caller_identity" "current" {}
-
 variable "name" {
   description = "Moniker to apply to all resources in the module"
   type        = string
