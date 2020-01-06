@@ -15,13 +15,3 @@ variable "env" {
   type        = string
   default     = "default"
 }
-
-locals {
-
-  common_tags = merge(var.tags, {
-    Name                = var.name
-    env                 = var.env
-    terraform_managed   = "true"
-    terraform_workspace = terraform.workspace
-    })
-}
