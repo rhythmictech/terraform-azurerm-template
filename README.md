@@ -1,4 +1,6 @@
 # terraform-azurerm-template
+[![](https://github.com/rhythmictech/terraform-azurerm-template/workflows/check/badge.svg)](https://github.com/rhythmictech/terraform-azurerm-template/actions)
+
 Template repo for Azure module
 
 
