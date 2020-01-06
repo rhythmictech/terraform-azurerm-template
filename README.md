@@ -14,4 +14,3 @@ Template repo for Azure module
 |------|-------------|
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
